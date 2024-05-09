@@ -1,17 +1,18 @@
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 import { SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
 
-export default function navbar() {
+export default function navbar({className}: {className?:string} ) {
   const social = [
-    {
-      link: "https://www.linkedin.com/in/ofren-dialsa-64b6b2239/",
-      label: "Linkedin",
-      icon: SiGithub,
-    },
     {
       link: "https://github.com/Neeerooo",
       label: "GitHub",
+      icon: SiGithub,
+    },
+    {
+      link: "https://www.linkedin.com/in/ofren-dialsa-64b6b2239/",
+      label: "Linkedin",
       icon: SiLinkedin,
     },
     {
@@ -22,15 +23,17 @@ export default function navbar() {
   ];
 
   return (
-    <nav className="py-10 flex justify-between items-center">
-      <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">Ofren Dialsa🤓</h1>
+    <nav className={cn("py-10 flex justify-between items-center animate-move-down", className)}>
+      <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
+        Ofren Dialsa🤓
+      </h1>
       <div className="flex items-center gap-7">
         {social.map((social, index) => {
           const Icons = social.icon;
 
           return (
             <Link href={social.link} key={index} aria-label={social.label}>
-            <Icons className="w-7 h-7 hover:scale-125 transition-all"/>
+              <Icons className="w-7 h-7 hover:scale-125 transition-all" />
             </Link>
           );
         })}

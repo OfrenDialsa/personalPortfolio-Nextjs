@@ -10,7 +10,7 @@ export default function Hero() {
         <h1 className="text-6xl ig:text-7xl font-bold">
           Salam kenal semuanya! 👋 <br /> {""}
           <span className="underline underline-offset-8 decoration-green-500">
-            {"Nama saya Ofren."}
+            {"Saya Ofren dialsa."}
           </span>
         </h1>
         <p className="md:w-96 text-lg text-grey-300 text-center lg:text-left">
@@ -25,7 +25,7 @@ export default function Hero() {
           <Title text="Contact me 📫"/>
         </Link>
       </div>
-      <div className="relative">
+      <div className="ml-10 relative">
         <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
             <div className="flex gap-3 translate-x-8">
               <div className="w-32 h-32 rounded-2xl bg-green-500"></div>
@@ -40,7 +40,7 @@ export default function Hero() {
         <div className="">
             <img
               src="https://media.istockphoto.com/id/1207488059/vector/cute-small-green-chameleon-lizard-cartoon-animal-design-flat-vector-illustration-isolated-on.jpg?s=612x612&w=0&k=20&c=HRG8PY4valWYqbwoNgeyQAxAsk1u0uhXYgjmtwCJwGk="
-              className="absolute w-64 h-64 rounded-full top-[0%] border hover:scale-125 transition-all"
+              alt="Profile Photo" className="absolute w-64 h-64 rounded-full top-[0%] border hover:scale-125 transition-all"
             />
             <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
           <MovingBorderBtn
