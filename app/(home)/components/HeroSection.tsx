@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
         <div className="">
             <img
-              src="https://media.istockphoto.com/id/1207488059/vector/cute-small-green-chameleon-lizard-cartoon-animal-design-flat-vector-illustration-isolated-on.jpg?s=612x612&w=0&k=20&c=HRG8PY4valWYqbwoNgeyQAxAsk1u0uhXYgjmtwCJwGk="
+              src="https://pbs.twimg.com/profile_images/1790723501781123072/ZJO7IIKZ_400x400.jpg"
               alt="Profile Photo" className="absolute w-64 h-64 rounded-full top-[0%] border hover:scale-125 transition-all"
             />
             <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">

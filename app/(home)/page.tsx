@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Title from "./components/Title";
-import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import { NeoProject } from "./components/NeoProject";
 

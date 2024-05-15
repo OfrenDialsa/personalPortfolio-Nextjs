@@ -19,6 +19,15 @@ import { SiCss3, SiHtml5, SiJavascript } from "react-icons/si";
 export function NeoProject() {
   const items = [
     {
+      title: "Simple Calculator",
+      description: "Calcucator for everyday use, and it's not an advanced one",
+      imageUrl: "/calculator.png",
+      link: "https://neeerooo.github.io/Simple-calculator/",
+      header: <Skeleton />,
+      className: "md:col-span-1",
+      icon: <IconBrandJavascript className="h-6 w-6 text-neutral-500" />,
+    },
+    {
       title: "Tic Tac Toe",
       imageUrl: "/tictactoe.png",
       description:
@@ -29,21 +38,12 @@ export function NeoProject() {
       icon: <IconBrandJavascript className="h-6 w-6 text-neutral-500" />,
     },
     {
-      title: "Simple Calculator",
-      description: "Calcucator for everyday use, and it's not an advanced one",
-      imageUrl: "/calculator.png",
-      link: "https://neeerooo.github.io/Simple-calculator/",
-      header: <Skeleton />,
-      className: "md:col-span-1",
-      icon: <IconBrandJavascript className="h-6 w-6 text-neutral-500" />,
-    },
-    {
       title: "The Art of Design",
       description: "Discover the beauty of thoughtful and functional design.",
       imageUrl: "",
       header: <Skeleton />,
       link: "#",
-      className: "md:col-span-1",
+      className: "md:col-span-2",
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
     {
@@ -53,9 +53,10 @@ export function NeoProject() {
       imageUrl: "",
       header: <Skeleton />,
       link: "#",
-      className: "md:col-span-2",
+      className: "md:col-span-1",
       icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     },
+    
   ];
 
   return (
