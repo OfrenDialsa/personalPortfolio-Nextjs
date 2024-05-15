@@ -5,7 +5,7 @@ import Title  from "./Title";
 
 export default function Hero() {
   return (
-    <div className="min-h-[60vh] flex flex-col-reverse gap-16 lg:gap-0 lg:flex-row items-center justify-between">
+    <div className="min-h-[60vh] flex flex-col-reverse gap-16 lg:gap-0 lg:flex-row items-center justify-between animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-6xl ig:text-7xl font-bold">
           Salam kenal semuanya! 👋 <br /> {""}

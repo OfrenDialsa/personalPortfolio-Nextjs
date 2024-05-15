@@ -4,6 +4,7 @@ import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/UI/direction-aware-hover";
+import { BentoGrid } from "@/components/UI/Bento-grid";
 
 export default function Projects() {
   const projects = [
@@ -12,14 +13,14 @@ export default function Projects() {
       tech: [SiHtml5, SiCss3, SiJavascript],
       link: "https://neeerooo.github.io/Simple-calculator/",
       cover: "/calculator.png",
-      background: "bg-indigo-500",
+      background: "bg-gray-500",
     },
     {
       title: "Tic Tac Toe",
       tech: [SiHtml5, SiCss3, SiJavascript],
       link: "https://neeerooo.github.io/Tic-Tac-Toe/",
       cover: "/tictactoe.png",
-      background: "bg-green-500",
+      background: "bg-gray-500",
     },
   ];
   return (

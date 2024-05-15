@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Title from "./components/Title";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import { NeoProject } from "./components/NeoProject";
 
 export default function page() {
   return (
@@ -20,7 +21,7 @@ export default function page() {
       </div>
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
-        <Projects />
+        <NeoProject/>
         <Footer />
       </div>
     </div>
