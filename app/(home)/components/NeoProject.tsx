@@ -56,26 +56,6 @@ export function NeoProject() {
       className: "md:col-span-2",
       icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     },
-    {
-      title: "The Power of Communication",
-      description:
-        "Understand the impact of effective communication in our lives.",
-      imageUrl: "",
-      header: <Skeleton />,
-      link: "#",
-      className: "md:col-span-2",
-      icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-      title: "The Power of Communication",
-      description:
-        "Understand the impact of effective communication in our lives.",
-      imageUrl: "",
-      header: <Skeleton />,
-      link: "#",
-      className: "md:col-span-2",
-      icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-    },
   ];
 
   return (
@@ -83,10 +63,10 @@ export function NeoProject() {
       <Title
         text="Projects ⚒️"
         ClassName="flex flex-col items-center justify-center mb-10"
-      />      
-        <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
-          {items.map((item, i) => (
-            <Link href={item.link} key={i}>
+      />{" "}
+      <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+        {items.map((item, i) => (
+          <Link href={item.link} key={i} className={item.className}>
             <BentoGridItem
               key={i}
               title={item.title}
@@ -98,9 +78,9 @@ export function NeoProject() {
               imageClassName={item.imageUrl}
               imageUrl={item.imageUrl}
             />
-            </Link>
-          ))}
-        </BentoGrid>
+          </Link>
+        ))}
+      </BentoGrid>
     </div>
   );
 }
