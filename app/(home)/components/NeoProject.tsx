@@ -23,7 +23,7 @@ export function NeoProject() {
       title: "Simple Calculator",
       description: "Calcucator for everyday use, and it's not an advanced one",
       imageUrl: "/calculator.png",
-      Children: "Open Project",
+      Children: "Click to open Project",
       link: "https://neeerooo.github.io/Simple-calculator/",
       header: <Skeleton />,
       className: "md:col-span-1",
@@ -32,6 +32,7 @@ export function NeoProject() {
     {
       title: "Tic Tac Toe",
       imageUrl: "/tictactoe.png",
+      Children: "Click to open Project",
       description:
         "A simple tic tac toe game as an implemetation of array in javascript.",
       header: <Skeleton />,
@@ -42,6 +43,7 @@ export function NeoProject() {
     {
       title: "Weather App",
       description: "A complex Weather App using Next.js and Openweather App API.",
+      Children: "Click to open Project",
       imageUrl: "/WeatherApp.png",
       header: <Skeleton />,
       link: "https://github.com/Neeerooo/Weather-app.git",
@@ -52,6 +54,7 @@ export function NeoProject() {
       title: "Library Management System",
       description:
         "Library Management system using C#, Mysql and .Net Framework .",
+        Children: "Click to open Project",
       imageUrl: "/Library.png",
       header: <Skeleton />,
       link: "https://github.com/Neeerooo/ProjectLibraryManagementSystem_FinalProject.git",

@@ -135,7 +135,7 @@ export const BentoGridItem = ({
               childrenClassName
             )}
           >
-            <p>Click To open Project</p>
+            {children}
           </motion.div>
         </motion.div>
       </AnimatePresence>
