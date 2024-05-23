@@ -23,7 +23,6 @@ export function NeoProject() {
       title: "Simple Calculator",
       description: "Calcucator for everyday use, and it's not an advanced one",
       imageUrl: "/calculator.png",
-      Children: "Click to open Project",
       link: "https://neeerooo.github.io/Simple-calculator/",
       header: <Skeleton />,
       className: "md:col-span-1",
@@ -32,7 +31,7 @@ export function NeoProject() {
     {
       title: "Tic Tac Toe",
       imageUrl: "/tictactoe.png",
-      Children: "Click to open Project",
+      children: "Click to open Project",
       description:
         "A simple tic tac toe game as an implemetation of array in javascript.",
       header: <Skeleton />,
@@ -42,8 +41,8 @@ export function NeoProject() {
     },
     {
       title: "Weather App",
-      description: "A complex Weather App using Next.js and Openweather App API.",
-      Children: "Click to open Project",
+      description:
+        "A complex Weather App using Next.js and Openweather App API.",
       imageUrl: "/WeatherApp.png",
       header: <Skeleton />,
       link: "https://github.com/Neeerooo/Weather-app.git",
@@ -54,14 +53,12 @@ export function NeoProject() {
       title: "Library Management System",
       description:
         "Library Management system using C#, Mysql and .Net Framework .",
-        Children: "Click to open Project",
       imageUrl: "/Library.png",
       header: <Skeleton />,
       link: "https://github.com/Neeerooo/ProjectLibraryManagementSystem_FinalProject.git",
       className: "md:col-span-1",
       icon: <IconBrandVisualStudio className="h-4 w-4 text-neutral-500" />,
     },
-    
   ];
 
   return (
@@ -75,7 +72,6 @@ export function NeoProject() {
           <Link href={item.link} key={i} className={item.className}>
             <BentoGridItem
               key={i}
-              children={item.Children}
               title={item.title}
               description={item.description}
               link={item.link}

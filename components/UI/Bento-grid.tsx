@@ -28,7 +28,6 @@ export const BentoGridItem = ({
   title,
   description,
   imageClassName,
-  children,
   childrenClassName,
   imageUrl,
   header,
@@ -40,7 +39,6 @@ export const BentoGridItem = ({
   description?: string | React.ReactNode;
   imageClassName?: string;
   imageUrl: string;
-  children: React.ReactNode | string;
   childrenClassName?: string;
   link:string;
   header?: string | React.ReactNode;
@@ -135,7 +133,7 @@ export const BentoGridItem = ({
               childrenClassName
             )}
           >
-            {children}
+            Click to open Project
           </motion.div>
         </motion.div>
       </AnimatePresence>
