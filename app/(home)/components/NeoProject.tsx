@@ -1,10 +1,11 @@
 "use client";
 import { cn } from "@/lib/utils";
-import React from "react";
+import React, { Children } from "react";
 import { BentoGrid, BentoGridItem } from "@/components/UI/Bento-grid";
 import {
   IconBrandJavascript,
   IconBrandNextjs,
+  IconBrandVisualStudio,
   IconClipboardCopy,
   IconFileBroken,
   IconHtml,
@@ -22,6 +23,7 @@ export function NeoProject() {
       title: "Simple Calculator",
       description: "Calcucator for everyday use, and it's not an advanced one",
       imageUrl: "/calculator.png",
+      Children: "Open Project",
       link: "https://neeerooo.github.io/Simple-calculator/",
       header: <Skeleton />,
       className: "md:col-span-1",
@@ -38,23 +40,23 @@ export function NeoProject() {
       icon: <IconBrandJavascript className="h-6 w-6 text-neutral-500" />,
     },
     {
-      title: "The Art of Design",
-      description: "Discover the beauty of thoughtful and functional design.",
-      imageUrl: "",
+      title: "Weather App",
+      description: "A complex Weather App using Next.js and Openweather App API.",
+      imageUrl: "/WeatherApp.png",
       header: <Skeleton />,
-      link: "#",
+      link: "https://github.com/Neeerooo/Weather-app.git",
       className: "md:col-span-2",
-      icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+      icon: <IconBrandNextjs className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "The Power of Communication",
+      title: "Library Management System",
       description:
-        "Understand the impact of effective communication in our lives.",
-      imageUrl: "",
+        "Library Management system using C#, Mysql and .Net Framework .",
+      imageUrl: "/Library.png",
       header: <Skeleton />,
-      link: "#",
+      link: "https://github.com/Neeerooo/ProjectLibraryManagementSystem_FinalProject.git",
       className: "md:col-span-1",
-      icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+      icon: <IconBrandVisualStudio className="h-4 w-4 text-neutral-500" />,
     },
     
   ];
@@ -70,6 +72,7 @@ export function NeoProject() {
           <Link href={item.link} key={i} className={item.className}>
             <BentoGridItem
               key={i}
+              children={item.Children}
               title={item.title}
               description={item.description}
               link={item.link}
