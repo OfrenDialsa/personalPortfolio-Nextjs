@@ -14,9 +14,7 @@ export default function Hero() {
           </span>
         </h1>
         <p className="md:w-96 text-lg text-grey-300 text-center lg:text-left">
-          {
-            "Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya telah mengembangkan beberapa project di bidang desktop dan web development"
-          }
+          {"Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya telah mengembangkan beberapa project di bidang desktop dan web development"}
         </p>
         <Link
           href="mailto:ofrendial25@gmail.com"
