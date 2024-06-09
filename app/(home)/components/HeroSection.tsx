@@ -1,4 +1,4 @@
-timport Link from "next/link";
+import Link from "next/link";
 import React from "react";
 import { MovingBorderBtn } from "@/components/UI/moving-border";
 import Title  from "./Title";
