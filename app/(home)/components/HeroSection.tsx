@@ -1,4 +1,4 @@
-import Link from "next/link";
+timport Link from "next/link";
 import React from "react";
 import { MovingBorderBtn } from "@/components/UI/moving-border";
 import Title  from "./Title";
@@ -15,7 +15,7 @@ export default function Hero() {
         </h1>
         <p className="md:w-96 text-lg text-grey-300 text-center lg:text-left">
           {
-            "Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya telah mengembangkan beberapa project di bidang web development"
+            "Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya telah mengembangkan beberapa project di bidang desktop dan web development"
           }
         </p>
         <Link
