@@ -7,6 +7,14 @@ import { SiCsharp, SiDotnet, SiGithub, SiJavascript, SiMysql, SiNextdotjs, SiNod
 export default function Skills() {
   const skills = [
     {
+      text:"Jetpack Compose",
+      icon:SiJetpackcompose
+    },
+    {
+      text:"Android XML",
+      icon:SiAndroid
+    },
+    {
       text:"React",
       icon:SiReact
     },
@@ -15,24 +23,28 @@ export default function Skills() {
       icon:SiNextdotjs
     },
     {
+      text:"Vite",
+      icon:SiVite
+    },
+    {
       text:"Node.Js",
       icon:SiNodedotjs
+    },
+    {
+      text:".Net",
+      icon:SiDotnet
+    },
+    {
+      text:"Kotlin",
+      icon:SiKotlin
     },
     {
       text:"Javascript",
       icon:SiJavascript
     },
     {
-      text:"Github",
-      icon:SiGithub
-    },
-    {
-      text:"Vite",
-      icon:SiVite
-    },
-    {
-      text:"MySQL",
-      icon:SiMysql
+      text:"Typescript",
+      icon:SiTypescript
     },
     {
       text:"Phyton",
@@ -43,10 +55,19 @@ export default function Skills() {
       icon:SiPhp
     },
     {
-      text:".Net",
-      icon:SiDotnet
-    }
+      text:"C#",
+      icon:SiCsharp
+    },
+    {
+      text:"Github",
+      icon:SiGithub
+    },
+    {
+      text:"MySQL",
+      icon:SiMysql
+    },
   ]
+  
   return (
     <div className='max-w-5xl mx-auto px-8'>
       <Title text="Skills 👨‍💻" ClassName='flex flex-col items-center justify-center mt-10'/>
