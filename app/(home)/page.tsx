@@ -4,7 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Title from "./components/Title";
 import Footer from "./components/Footer";
-import { NeoProject } from "./components/NeoProject";
+import { Projects } from "./components/Projects";
 
 export default function page() {
   return (
