@@ -2,7 +2,9 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/UI/Card-hover-effect'
-import { SiCsharp, SiDotnet, SiGithub, SiJavascript, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPython, SiReact, SiVite } from 'react-icons/si'
+import { SiAndroid, SiCsharp, SiDotnet, SiGithub, SiJavascript, SiJetpackcompose, SiKotlin, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPython, SiReact, SiTypescript, SiVite } from 'react-icons/si'
+import { text } from 'stream/consumers';
+import { Icon } from 'lucide-react';
 
 export default function Skills() {
   const skills = [
