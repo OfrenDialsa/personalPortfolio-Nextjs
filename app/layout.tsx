@@ -8,17 +8,17 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	metadataBase: new URL("http://localhost:3000"),
 
-	title: "Ofren dialsa's Portfolio",
+	title: "Ofren Dialsa Portfolio",
 	authors: {
 		name: "Ofren dialsa",
 	},
 
 	description:
-		"Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya telah mengembangkan beberapa project di bidang web development",
+		"Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya adalah seorang Web dan Mobile developer yang berfokus di bidang android development🤖",
 	openGraph: {
 		title: "Portfolio",
 		description:
-			"Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya telah mengembangkan beberapa project di bidang web development",
+			"Sekarang saya berkuliah di Prodi Sistem informasi, Universitas jambi, dan saya adalah seorang Web dan Mobile developer yang berfokus di bidang android development🤖",
 		url: "http://localhost:3000",
 		siteName: "Portfolio",
 		images: "/og.png",

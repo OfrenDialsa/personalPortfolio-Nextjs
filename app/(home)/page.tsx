@@ -20,7 +20,7 @@ export default function page() {
       </div>
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
-        <NeoProject/>
+        <Projects/>
         <Footer />
       </div>
     </div>
